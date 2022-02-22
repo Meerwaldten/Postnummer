@@ -8,7 +8,7 @@ import static java.lang.Integer.parseInt;
 public class Filereader {
 
 
-    public static ArrayList<Postinfo> readFile(){
+     static ArrayList<Postinfo> readFile(){
         ArrayList<Postinfo> newList = new ArrayList<>();
         File f = new File("C:\\Users\\mikke\\IdeaProjects\\Postnummer\\src\\Postnumre");
         try{

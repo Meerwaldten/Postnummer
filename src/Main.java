@@ -20,7 +20,7 @@ public class Main {
     }
 
 
-    public static String skafByNavn(int postnummer){
+    static String skafByNavn(int postnummer){
         String bynavn = "By ikke fundet";
         for (Postinfo p: listen) {
             if(postnummer==p.getPostNummer()){
